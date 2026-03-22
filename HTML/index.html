@@ -6,6 +6,14 @@
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
+
+<div class="video-background">
+    <video autoplay muted loop id="myVideo">
+        <source src="/RetroGameClub/video/background.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео-фон
+    </video>
+</div>
+
 <div class = "header_container">
     <div class = "about">
     <button id = "about_store"> About store</button>
@@ -17,10 +25,10 @@
 
 <div class = "container">
 <div class = "text_container1">
-    <p>The Best games from the world!</p>
+    <p id="bestGamesText">The Best games from the world!</p>
 </div>
 <div class = "text_container2">
-    <p>Every friday new game.</p>
+    <p>Every friday new game</p>
     <p>Subscribe for just 200 rubles!</p>
 </div>
 </div>
@@ -33,7 +41,6 @@
 <div class = "game-container" id = "game-container">
 
 </div>
-
 
 <script src="/JS/app.js"></script>
 </body>
